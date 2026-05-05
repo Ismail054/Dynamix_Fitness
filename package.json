@@ -1,0 +1,14 @@
+{
+  "name": "gym-website",
+  "version": "1.0.0",
+  "description": "Responsive gym website built with a modern no-build stack:",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sh -c 'for pid in $(lsof -ti tcp:5173); do kill -9 \"$pid\"; done 2>/dev/null; node dev-server.js'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
